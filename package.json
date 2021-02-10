@@ -1,0 +1,31 @@
+{
+  "name": "@platosedu/eslint-config",
+  "version": "0.0.1",
+  "description": "Eslint configuration used across all JavaScript/Typescript projects at Platos Edu",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/platosedu/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "javascript",
+    "typescript",
+    "react"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Willy Camargo (https://github.com/willycamargo)",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "@typescript-eslint/parser": "^4.15.0",
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  }
+}
