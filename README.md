@@ -7,10 +7,10 @@ Eslint configuration with Typescript and Prettier support by default. This setti
 
 npm:
 ```shell
-npm install --save-dev @platosedu/eslint-config prettier
+npm install --save-dev eslint @platosedu/eslint-config prettier
 ```
 
-yarn: 
+yarn:
 ```shell
 yarn add dev @platosedu/eslint-config prettier
 ```
@@ -27,7 +27,7 @@ yarn add dev @platosedu/eslint-config prettier
 ```
 
 #### 2.2. If you use VSCode, add the file `.vscode/settings.json`
-This settings is needed automatize code formatting when a file is saved
+This settings is needed to automatize code formatting when a file is saved
 ```json
 {
   "editor.formatOnSave": false,
