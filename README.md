@@ -96,10 +96,24 @@ yarn add dev babel-plugin-module-resolver
 }
 ```
 
-### 4. Typescript support
+### 4. Editor config
+
+##### Add file `.editorconfig`
+```txt
+root = true
+
+[*]
+indent_style = spaces
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+```
+### 5. Typescript support
 This eslint settings was setted up to support typescript by default.
 
-#### 4.1.
+#### 5.1.
 In order to support typescript on your project, you will need your own typescript config with your preferences. See below an example.
 
 `tsconfig.json`
@@ -129,7 +143,7 @@ In order to support typescript on your project, you will need your own typescrip
 }
 ```
 
-#### 4.2. Typescript module resolver
+#### 5.2. Typescript module resolver
 To support a customized base path for imports you need to add the `baseUrl` option on your `tsconfig.json` file. See below:
 
 ```json
@@ -151,7 +165,8 @@ To support a customized base path for imports you need to add the `baseUrl` opti
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "target": "esnext"
+    "target": "esnext",
+    "baseUrl": "./src"
   },
   "exclude": ["node_modules"],
   "include": ["**/*.ts", "**/*.tsx"]
