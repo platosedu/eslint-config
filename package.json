@@ -1,6 +1,6 @@
 {
   "name": "@platosedu/eslint-config",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Eslint configuration used across all JavaScript/Typescript projects at Platos Edu",
   "main": "index.js",
   "repository": {
