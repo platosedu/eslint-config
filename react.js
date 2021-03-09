@@ -4,7 +4,8 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "index.js"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -24,7 +25,6 @@ module.exports = {
     "react-hooks/exhaustive-deps": "warn",
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
-    "@typescript-eslint/explicit-module-boundary-types": "off",
     "react/no-unescaped-entities": "off"
   }
 }
