@@ -14,7 +14,10 @@ module.exports = {
     "@typescript-eslint"
   ],
   "rules": {
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-unused-vars": "off",
     "@typescript-eslint/member-delimiter-style": ["error", {
       "multiline": {
         "delimiter": "none",
